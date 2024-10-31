@@ -1,4 +1,5 @@
-package hw05parallelexecution
+// package hw05parallelexecution
+package main
 
 import (
 	"errors"
