@@ -30,6 +30,7 @@ linters:
     - errorlint
     - exhaustive
     #- exportloopref
+    - copyloopvar
     - funlen
     - gci
     - gocognit
