@@ -8,6 +8,10 @@ linters-settings:
   funlen:
     lines: 150
     statements: 80
+  gosec:
+      excludes:
+        # Flags for potentially-unsafe casting of ints, similar problem to globally-disabled G103
+        - G115
 
 issues:
   exclude-rules:
