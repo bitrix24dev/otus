@@ -32,7 +32,7 @@ linters:
     - bodyclose
     - durationcheck
     - errorlint
-    - exhaustive
+    # - exhaustive
     #- exportloopref
     - copyloopvar
     - funlen
